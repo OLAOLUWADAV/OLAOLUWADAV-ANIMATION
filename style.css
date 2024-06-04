@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.street{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: linear-gradient();
+}
+img{
+    padding: ;
+}
+.car{
+    height: 200px;
+    width: 400px;
+    margin-top: -250px;
+    position: absolute;
+    animation: car 6s 1s linear reverse infinite;
+
+}
+@keyframes car{
+    100%{
+        transform: translate(10,5);
+    }
+    0%{
+        transform: translate(1500px);
+    }
+}
